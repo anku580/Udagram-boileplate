@@ -27,4 +27,4 @@ jobs:
       - run:
           name: Deploy Backend
           command: |
-            eb deploy
+            npm run deploy
